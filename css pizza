@@ -1,0 +1,255 @@
+body {
+    background-image: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #048;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin-top: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #037;
+    color: yellow;
+    border-radius: 10px 10px 10px 10px;
+    transition: .7s;
+}
+
+ul li {
+    min-height: 70px;
+    margin-left: 180px;
+
+}
+.wind {
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+    
+}
+/*beginning of the types*/    
+
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  
+}
+.pizzaa {
+    display: flex;
+    flex-direction: row;
+}
+.header {
+  /*border: 2px solid green;*/
+  height: 60%;
+  display:flex;
+  justify-content:flex;
+  padding: 3rem;
+  display: flex;
+}
+.firstimage {
+  border: 1px solid orange;
+  width: 300px;
+  height: 500px;
+  border-radius: 5px;
+  background: orange;
+}
+.photo {
+  /*border: 3px solid orange;*/
+  width: 150px;
+  height: 140px;
+  
+}
+.photo1 {
+  width: 294px;
+  height: 140px;
+  object-fit: cover; 
+  image-orientation: center;
+}
+
+.number h1 {
+  text-align: center;
+  font-size: 25px;
+  color: chocolate;
+  
+}
+.number p {
+  text-align: center;
+  font-size: 14px;
+    color: antiquewhite
+}
+.number h3 {
+  text-align: center;
+  font-size: 30px;
+  color: antiquewhite
+}
+    /*the end of the types*/
+
+/*beginning of "Contacts"*/
+.Contacts {
+    background-color: ;
+    
+}
+.ContactUs {
+    padding: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.inputs {
+    width: 100%;
+    background-color: #FFD700;
+    margin: 50px auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.inputs p span {
+    font-family: Inter, Roboto, monospace;
+    color: #000000;
+    text-align: center;
+    font-size: 37px;
+}
+.inputs p  {
+    color: #000000;
+    font-size: 23px;
+    font-family: Inter, Roboto, cursive;
+
+}
+.inputs p a {
+    text-decoration: inherit;
+    color: black;
+}
+.inputs input {
+    margin: 10pt;
+    padding: 3px 3px 3px 12px;
+    background-color: rgba(0,0,0,0.01);
+    border: 1px solid orange;
+    width: 350pt;
+    height: 40pt;
+    color: black;
+}
+textarea {
+    margin: 5pt;
+    padding: 3px 3px 3px 12px;
+    background-color: rgba(0,0,0,0.01);
+    border: 1px solid orange;
+    width: 350pt;
+    height: 150pt;
+    color: black;
+}
+button {
+    background-color: #DAA520;
+    color: black;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 50%;
+    margin-left: 100pt;
+}
+button:hover {
+    border: 1px solid orange;
+    background-color: black;
+    color: #DAA520;
+    transition: .7s;
+}
+@media only screen and (max-width: 992px) {
+    /*beginning of the header*/
+    ul li {
+        margin-left: 100px;
+    }
+    /*the end of the header*/
+
+    /*beginning of the main*/
+   .container img {
+        margin-top: 100px;
+    }
+
+    .container p {
+        font-family: Inter, Roboto, sans-serif;
+        color: skyblue;
+        font-size: 20px;
+        line-height: 50px
+    }
+    
+   .container-2 p a {
+        text-decoration: none;
+        margin-left: 8pt;
+        color: whitesmoke;
+        border-right: 2px solid white;
+        padding-right: 5pt;
+    }
+    .container-2 .secondLine a .instagram, .facebook {
+    margin-top: 15pt;
+}
+
+    /*the end of the main*/
+
+    
+    
+    /*beginning of the footer/contactspage*/
+    iframe {
+        margin-left: 0;
+    }
+    .container-2 p a {
+        text-decoration: none;
+        margin-left: 8pt;
+        color: whitesmoke;
+        border-right: 2px solid white;
+        padding-right: 5pt;
+    }
+    .firstLine {
+        float: right;
+        margin-left: 70pt;
+    }
+    .container-2 .firsLine a .instagram, .facebook {
+        margin-top: 14pt;
+    }
+    .secondLine img {
+        margin-left: 15pt;
+    }
+    /*the end of the main*/
+
+    /*beginning of the What We Offer and inputs*/
+    .inputs p span {
+        font-size: 25px;
+    }
+    .inputs p  {
+        font-size: 15px;
+    }
+    .inputs input {
+        width: 200pt;
+    }
+     textarea {
+        width: 200pt;
+    }
+     button {
+        margin-left: 60pt;
+    }
+    .fourth {
+        padding: 50px;
+    }
+    /*beginning of the What We Offer and inputs*/
+}
